@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "DCTM_Penguin_UK_DK_AL526630_wkmzns.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -18,16 +18,18 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     let data : [Animal] = [
         Animal(title: "Deer", imageName: "deer"),
+        Animal(title: "Bird", imageName: "bird"),
+        Animal(title: "Cat", imageName: "cats"),
+        Animal(title: "Pigeon", imageName: "pigeon"),
         Animal(title: "Deer", imageName: "deer"),
-        Animal(title: "Deer", imageName: "deer"),
-        Animal(title: "Deer", imageName: "deer"),
-        Animal(title: "Deer", imageName: "deer"),
-        Animal(title: "Deer", imageName: "deer")
+        Animal(title: "Tiger", imageName: "tiger"),
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
      //   table.delegate = self
         table.dataSource = self
+       // table.rowHeight = UITableView.automaticDimension
+      //  table.estimatedRowHeight = UITableView.automaticDimension
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
